@@ -7,7 +7,6 @@ from lists.views import home_page
 
 
 class HomePageTest(TestCase):
-  """ kjafdng """
 
   def test_root_url_resolves_to_home_page_view(self):
     found = resolve('/')
